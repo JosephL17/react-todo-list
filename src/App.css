@@ -1,0 +1,43 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #2BC0E4;
+  background: -webkit-linear-gradient(to left, #2BC0E4, #EAECC6);
+  /* Chrome 10-25, Safari 5.1-6 */  background: linear-gradient(to left, #2BC0E4, #EAECC6);
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Ensure full height */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+#title {
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+}
+
+header {
+  font-style: oblique;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #2BC0E4;
+  color: white; /* Change text color on hover */
+}
+
+#input-task:hover {
+  background-color:  #EAECC6;
+}
+
+h3 {
+  text-align: center;
+}
+
+#parent {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
+  margin-top: 20px; /* Add spacing from the top */
+}
