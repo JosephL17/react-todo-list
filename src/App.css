@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #2BC0E4;
   background: -webkit-linear-gradient(to left, #2BC0E4, #EAECC6);
-  /* Chrome 10-25, Safari 5.1-6 */  background: linear-gradient(to left, #2BC0E4, #EAECC6);
+  background: linear-gradient(to left, #2BC0E4, #EAECC6);
   margin: 0; /* Remove default margin */
   height: 100vh; /* Ensure full height */
   display: flex;
@@ -22,13 +22,12 @@ header {
   text-align: center;
 }
 
-button:hover {
-  background-color: #2BC0E4;
-  color: white; /* Change text color on hover */
-}
-
-#input-task:hover {
-  background-color:  #EAECC6;
+.todo-item {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: x-large;
+  padding-right: 10%;
+  color: white;
 }
 
 h3 {
